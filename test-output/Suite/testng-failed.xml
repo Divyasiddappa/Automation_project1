@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="generalUtility.RetryToListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testng_practice.Paymenttestngtest">
+        <methods>
+          <include name="setuppart"/>
+          <include name="classteardown"/>
+          <include name="payment1"/>
+          <include name="setupmethod"/>
+          <include name="methodteardown"/>
+        </methods>
+      </class> <!-- testng_practice.Paymenttestngtest -->
+      <class name="testng_practice.Payment2Testngtest">
+        <methods>
+          <include name="setuppart"/>
+          <include name="payment2"/>
+          <include name="classteardown"/>
+          <include name="setupmethod"/>
+          <include name="methodteardown"/>
+        </methods>
+      </class> <!-- testng_practice.Payment2Testngtest -->
+      <class name="testng_practice.Testngutilizationtest">
+        <methods>
+          <include name="setuppart"/>
+          <include name="classteardown"/>
+          <include name="setupmethod"/>
+          <include name="Searchbtn"/>
+          <include name="methodteardown"/>
+        </methods>
+      </class> <!-- testng_practice.Testngutilizationtest -->
+      <class name="testng_practice.DeleteTestngparttest">
+        <methods>
+          <include name="setuppart"/>
+          <include name="classteardown"/>
+          <include name="setupmethod"/>
+          <include name="methodteardown"/>
+          <include name="Searchdelete"/>
+        </methods>
+      </class> <!-- testng_practice.DeleteTestngparttest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
