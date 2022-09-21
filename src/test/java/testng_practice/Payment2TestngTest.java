@@ -21,8 +21,12 @@ public class Payment2TestngTest extends Base_class
 		Reporter.log("Testcase4 pass", true);
 	}
 }
+//<<<<<<< HEAD
 //EDITED BY ENGG-3
 
 
 
 
+//=======
+//EDITED CODE BY ENGG-1
+//>>>>>>> branch 'master' of https://github.com/Divyasiddappa/Automation_project1.git
