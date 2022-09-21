@@ -12,6 +12,7 @@ public void cityTest(String city, int pincode)
 	System.out.println("pincode"+pincode);
 	
 }
+	///
 	@DataProvider( name="data")
 public Object[][] getdata()
 {
