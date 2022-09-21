@@ -9,6 +9,7 @@ import com.mysql.jdbc.Driver;
 
 public class Dbconnectionpractice {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) 
 	{
 		//1.step1:Register the driver

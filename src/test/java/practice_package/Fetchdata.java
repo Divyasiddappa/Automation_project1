@@ -8,6 +8,7 @@ import generalUtility.Iconstants;
 
 public class Fetchdata {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) 
 	{
 		ExcelUtility excelutility = new ExcelUtility();
